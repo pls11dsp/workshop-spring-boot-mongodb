@@ -19,7 +19,7 @@ public class Post implements Serializable{
 	private String title;
 	private String body;
 	private AuthorDTO author;
-	
+		
 	public Post() {
 	}
 	
@@ -63,7 +63,7 @@ public class Post implements Serializable{
 	public void setAuthor(AuthorDTO author) {
 		this.author = author;
 	}
-	
+		
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
